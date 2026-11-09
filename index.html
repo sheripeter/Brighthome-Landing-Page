@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:,">
+    <title>BrightHome Services | Professional Cleaning</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta name="description" content="BrightHome provides reliable home and office cleaning services.">
+</head>
+<style>
+    .logo{
+      background-color:#237a50 ;
+      color:white ;
+      border-radius:10% ;
+      border: 5px solid white;  
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+</style>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <h2><span class="logo">BH</span>BrightHome</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+<section id="home" class="hero">
+    <div class="hero-content">
+        <span class="eyebrow">A FRESHER HOME STARTS HERE</span>
+
+        <h1>A Cleaner Home.<br> A Happier Life.</h1>
+
+        <p>
+            Professional home cleaning services
+            designed to give you more time to enjoy
+            the things that matter.
+        </p>
+
+        <a href="#contact" class="btn">
+            Book a Service
+        </a>
+    </div>
+
+    <div class="hero-image">
+        <img
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1000"
+            alt="Beautiful clean and modern home interior"
+        >
+    </div>
+</section>
+
+    <!-- Services Section -->
+        <section id="services">
+                    <h2>Our Services</h2>
+            
+                <div class="service-list">
+
+            <article>
+                <img
+                    src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=700"
+                    alt="Professional home cleaning"
+                >
+                <h3>Home Cleaning</h3>
+                <p>Keep your home fresh, tidy and welcoming.</p>
+            </article>
+
+            <article>
+                <img
+                    src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=700"
+                    alt="Deep cleaning supplies"
+                >
+                <h3>Deep Cleaning</h3>
+                <p>Detailed cleaning for every corner of your home.</p>
+            </article>
+
+            <article>
+                <img
+                    src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=700"
+                    alt="Clean modern office"
+                >
+                <h3>Office Cleaning</h3>
+                <p>Professional cleaning for productive workplaces.</p>
+            </article>
+
+        </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                We provide reliable and professional
+                cleaning services for homes and offices.
+            </p>
+        </section>
+
+        <!-- Contact Section -->
+        
+        <section id="contact" class="contact-section">
+
+            <h2>Get In Touch</h2>
+
+            <p>Tell us what cleaning service you need.</p>
+
+
+<form id="contactForm" novalidate>
+
+    <div class="form-group">
+        <label for="name">Your Name</label>
+        <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            aria-describedby="nameError"
+            required
+        >
+        <small class="error-message" id="nameError"></small>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            aria-describedby="emailError"
+            required
+        >
+        <small class="error-message" id="emailError"></small>
+    </div>
+
+    <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea
+            id="message"
+            placeholder="How can we help you?"
+            rows="5"
+            aria-describedby="messageError"
+            required
+        ></textarea>
+        <small class="error-message" id="messageError"></small>
+    </div>
+
+    <button type="submit" class="btn">
+        Send Message
+    </button>
+
+    <p id="formMessage" role="status" aria-live="polite"></p>
+
+</form>
+
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 BrightHome Services. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
